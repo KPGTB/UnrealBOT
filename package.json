@@ -1,0 +1,28 @@
+{
+  "name": "unrealbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev:watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KPGTB/UnrealBOT.git"
+  },
+  "author": "KPG-TB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KPGTB/UnrealBOT/issues"
+  },
+  "homepage": "https://github.com/KPGTB/UnrealBOT#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "chalk": "^4.1.0",
+    "discord.js": "^11.5.1",
+    "js-yaml": "^3.13.1",
+    "nodemon": "^2.0.6"
+  }
+}
